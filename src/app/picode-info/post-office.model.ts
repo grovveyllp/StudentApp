@@ -1,18 +1,18 @@
 export interface POffice {
-  message: string;
-  status: string;
-  postOffice: PostOfficeDetailModel[];
+  Message: string;
+  Status: string;
+  PostOffice: PostOfficeDetailModel[];
 }
 
 export interface PostOfficeDetailModel {
-  name: string;
-  description: string;
-  branchType: string;
-  deliveryStatus: string;
-  circle: string;
-  district: string;
-  division: string;
-  region: string;
-  state: string;
-  country: string;
+  Name: string;
+  Description: string;
+  BranchType: string;
+  DeliveryStatus: string;
+  Circle: string;
+  District: string;
+  Division: string;
+  Region: string;
+  State: string;
+  Country: string;
 }
